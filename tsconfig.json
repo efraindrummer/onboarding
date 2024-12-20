@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",             // Usamos un target moderno de ES
+    "module": "ESNext",             // Usamos ESNext para módulos ECMAScript
+    "moduleResolution": "node",     // Resolución de módulos al estilo Node.js
+    "esModuleInterop": true,        // Permite la interoperabilidad entre módulos ESM y CommonJS
+    "skipLibCheck": true,           // Evita que se chequeen las librerías
+    "strict": true,                 // Activa las reglas estrictas de TypeScript
+    "outDir": "./dist",             // Carpeta donde se generarán los archivos JS
+    "rootDir": "./src",             // Carpeta raíz de tus archivos TS
+    "resolveJsonModule": true,      // Permite importar archivos JSON
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*.ts"],        // Incluir todos los archivos TypeScript
+  "exclude": ["node_modules"]        // Excluir node_modules
+}
